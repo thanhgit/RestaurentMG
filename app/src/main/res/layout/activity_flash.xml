@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backgroud_login"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/login_layout_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/background_log_screen">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:background="#800022ff"
+            android:gravity="top|center_horizontal"
+            android:layout_weight="1">
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/brand_name"
+                android:gravity="center"
+                android:fontFamily="cursive"
+                android:textStyle="bold|italic"
+                android:textColor="@color/secondaryColor"
+                android:textSize="@dimen/login_title_name"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/secondaryLightColor"
+                android:textSize="@dimen/text_size_extra_large"
+                android:text="@string/slogan_title"/>
+
+            <com.github.jlmd.animatedcircleloadingview.AnimatedCircleLoadingView
+                android:id="@+id/circle_loading_view"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:background="@color/transcolor"
+                android:layout_centerInParent="true"
+
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

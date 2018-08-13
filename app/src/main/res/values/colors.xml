@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#000000</color>
+    <color name="primaryLightColor">#000000</color>
+    <color name="primaryDarkColor">#c2c2c2</color>
+    <color name="secondaryColor">#f40057</color>
+    <color name="secondaryLightColor">#ff5983</color>
+    <color name="secondaryDarkColor">#ba002f</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#80000000</color>
+
+    <color name="colorRaiedButton">@color/secondaryLightColor</color>
+    <color name="colorReaedButtonText">@color/primaryTextColor</color>
+
+    <color name="background_log_screen">#CCffffff</color>
+
+    <color name="transcolor">#00ffffff</color>
+</resources>

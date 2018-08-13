@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Various Text Sizes -->
+    <dimen name="text_size_extra_small">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_extra_large">20sp</dimen>
+    <dimen name="text_size_super_large">50sp</dimen>
+    <dimen name="text_size_super_extra_large">70sp</dimen>
+
+    <!-- Various Paddings -->
+    <dimen name="padding_very_short">2dp</dimen>
+    <dimen name="padding_short">5dp</dimen>
+    <dimen name="padding_medium">7dp</dimen>
+    <dimen name="padding_normal">10dp</dimen>
+    <dimen name="padding_long">35dp</dimen>
+    <dimen name="padding_long_gamename">55dp</dimen>
+    <dimen name="padding_extra_long">15dp</dimen>
+
+    <!-- Various Margins -->
+    <dimen name="margin_very_short">5dp</dimen>
+    <dimen name="margin_med_short">5dp</dimen>
+    <dimen name="margin_short">10dp</dimen>
+    <dimen name="margin_meium">15dp</dimen>
+    <dimen name="margin_short_player_review">10dp</dimen>
+    <dimen name="margin_meium_player_review">15dp</dimen>
+    <dimen name="margin_normal">20dp</dimen>
+    <dimen name="margin_long">25dp</dimen>
+    <dimen name="margin_vshape">25dp</dimen>
+
+    <!-- Various Width -->
+    <dimen name="width_extra_min">120dp</dimen>
+    <dimen name="width_profile_messages_images">70dp</dimen>
+    <dimen name="width_half">240dp</dimen>
+    <dimen name="width_normal">300dp</dimen>
+    <dimen name="width_extra_large">360dp</dimen>
+    <dimen name="width_popup_window">180dp</dimen>
+
+
+    <!-- Various Height -->
+    <dimen name="height_very_short_shadow">1dp</dimen>
+    <dimen name="height_short">40dp</dimen>
+    <dimen name="width_ListHalf">260dp</dimen>
+
+    <!--custom-->
+
+    // login - register screen
+    <dimen name="login_title_name">80sp</dimen>
+
+    // food menu screen
+    <dimen name="food_menu_title_name">60sp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+</resources>
