@@ -4,6 +4,6 @@
 <p>Architecture system: client - server with support of retrofit library.</p>
 <p>Architecture software: MVP</p>
 <p>
-  <img src="/callfood.png" width="300" />
+  <img src="/callfood.png" width="100%" />
 </p>
   
