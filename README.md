@@ -54,60 +54,22 @@ restaurentmg/
 ├── MVPWorkFlow
 │   ├── Model
 │   │   ├── dao
-│   │   │   ├── StaffDao.java
-│   │   │   └── UserDao.java
 │   │   ├── entity
 │   │   │   ├── drink
-│   │   │   │   ├── DrinkBuilder.java
-│   │   │   │   ├── Drink.java
-│   │   │   │   └── IDrink.java
 │   │   │   ├── food
-│   │   │   │   ├── FoodBuilder.java
-│   │   │   │   ├── Food.java
-│   │   │   │   └── IFood.java
 │   │   │   ├── OrderObject.java
 │   │   │   ├── room
-│   │   │   │   ├── IRoom.java
-│   │   │   │   ├── RoomBuilder.java
-│   │   │   │   └── Room.java
 │   │   │   ├── SearchObject.java
 │   │   │   ├── staff
-│   │   │   │   ├── IStaff.java
-│   │   │   │   ├── StaffBuilder.java
-│   │   │   │   └── Staff.java
 │   │   │   ├── table
-│   │   │   │   ├── ITable.java
-│   │   │   │   ├── TableBuilder.java
-│   │   │   │   └── Table.java
 │   │   │   └── user
-│   │   │       ├── IUser.java
-│   │   │       ├── UserBuilder.java
-│   │   │       └── User.java
 │   │   └── interact
 │   │       ├── foodmenu
-│   │       │   ├── IFoodMenuFinishedListener.java
-│   │       │   ├── IModelFoodMenu.java
-│   │       │   └── ModelFoodMenu.java
 │   │       ├── login
-│   │       │   ├── ILoginFinishedListener.java
-│   │       │   ├── IModelLogin.java
-│   │       │   └── ModelLogin.java
 │   │       ├── order
-│   │       │   ├── IModelOrder.java
-│   │       │   ├── IOrderFinishedListener.java
-│   │       │   └── ModelOrder.java
 │   │       ├── payment
-│   │       │   ├── IModelPayment.java
-│   │       │   ├── IPaymentFinishedListener.java
-│   │       │   └── ModelPayment.java
 │   │       ├── register
-│   │       │   ├── IModelRegister.java
-│   │       │   ├── IRegisterFinishListener.java
-│   │       │   └── ModelRegister.java
 │   │       └── search
-│   │           ├── IModelSearch.java
-│   │           ├── ISearchFinishedListener.java
-│   │           └── ModelSearch.java
 │   ├── Presenter
 │   │   ├── PresenterFoodMenu.java
 │   │   ├── PresenterLogin.java
@@ -121,39 +83,11 @@ restaurentmg/
 ├── server
 │   ├── APIUtils.java
 │   ├── DrinkAPI
-│   │   ├── DrinkClient.java
-│   │   ├── DrinkDataOutput.java
-│   │   ├── DrinkFindOutput.java
-│   │   ├── DrinkOutput.java
-│   │   └── DrinkQueryNameOutput.java
 │   ├── FoodAPI
-│   │   ├── FoodClient.java
-│   │   ├── FoodDataOutput.java
-│   │   ├── FoodFindDataOutput.java
-│   │   ├── FoodFindOuput.java
-│   │   ├── FoodOutput.java
-│   │   ├── FoodQueryNameDataOutput.java
-│   │   └── FoodyQueryNameOutput.java
 │   ├── PaymentAPI
-│   │   ├── PaymenDataOutput.java
-│   │   ├── PaymenTableOutput.java
-│   │   ├── PaymentClient.java
-│   │   └── PaymentOutput.java
 │   ├── ServerClient.java
 │   ├── TableAPI
-│   │   ├── TableAddDataOutput.java
-│   │   ├── TableAddOutput.java
-│   │   ├── TableByIdDataOutput.java
-│   │   ├── TableByIdOutput.java
-│   │   ├── TableClient.java
-│   │   ├── TableDataOutput.java
-│   │   └── TableOutput.java
 │   └── UserAPI
-│       ├── LoginDataOutput.java
-│       ├── LoginOutput.java
-│       ├── RegisterDataOutput.java
-│       ├── RegisterOutput.java
-│       └── UserClient.java
 ├── ToolbarMenu.java
 └── usersessionmg
     ├── AlertDialogManager.java
