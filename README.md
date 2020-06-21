@@ -55,31 +55,9 @@ restaurentmg/
 │   ├── Model
 │   │   ├── dao
 │   │   ├── entity
-│   │   │   ├── drink
-│   │   │   ├── food
-│   │   │   ├── OrderObject.java
-│   │   │   ├── room
-│   │   │   ├── SearchObject.java
-│   │   │   ├── staff
-│   │   │   ├── table
-│   │   │   └── user
 │   │   └── interact
-│   │       ├── foodmenu
-│   │       ├── login
-│   │       ├── order
-│   │       ├── payment
-│   │       ├── register
-│   │       └── search
 │   ├── Presenter
-│   │   ├── PresenterFoodMenu.java
-│   │   ├── PresenterLogin.java
-│   │   ├── PresenterPayment.java
-│   │   └── PresenterRegister.java
 │   └── View
-│       ├── IViewFoodMenu.java
-│       ├── IViewLogin.java
-│       ├── IViewPayment.java
-│       └── IViewRegister.java
 ├── server
 │   ├── APIUtils.java
 │   ├── DrinkAPI
