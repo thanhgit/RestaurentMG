@@ -13,44 +13,9 @@ Technical stack:
 ```text
 restaurentmg/
 ├── activity
-│   ├── AppCompatPreferenceActivity.java
-│   ├── DrinkActivity.java
-│   ├── ExpandDrinkActivity.java
-│   ├── ExpandFoodActivity.java
-│   ├── FlashActivity.java
-│   ├── FoodActivity.java
-│   ├── FoodMenuActivity.java
-│   ├── ForgetPasswordActivity.java
-│   ├── HomeActivity.java
-│   ├── LoginActivity.java
-│   ├── RegisterActivity.java
-│   ├── SearchActivity.java
-│   ├── SettingsActivity.java
-│   ├── SetupActivity.java
-│   ├── TableActivity.java
-│   └── TutorialActivity.java
 ├── adapter
-│   ├── ExpandFoodViewPaperAdapter.java
-│   ├── FoodMenuImageRecycleViewAdapter.java
-│   ├── FoodMenuMenuDrinkRecycleViewAdapter.java
-│   ├── FoodMenuMenuFoodRecycleViewAdapter.java
-│   ├── FoodMenuSearchRecycleViewAdapter.java
-│   ├── FoodMenuViewPaperAdapter.java
-│   ├── TableRoomRecycleViewAdapter.java
-│   └── TableViewPaperAdapter.java
 ├── dialog
-│   └── FoodMenuImageDialog.java
 ├── fragment
-│   ├── ExpandDrinkAllFragment.java
-│   ├── ExpandDrinkFavoriteFragment.java
-│   ├── ExpandDrinkRecentFragment.java
-│   ├── ExpandFoodAllFragment.java
-│   ├── ExpandFoodFavoriteFragment.java
-│   ├── ExpandFoodRecentFragment.java
-│   ├── ImageFoodMenuFragment.java
-│   ├── MenuFoodMenuFragment.java
-│   └── TableRoomFragment.java
-├── GridSpacingItemDecoration.java
 ├── MVPWorkFlow
 │   ├── Model
 │   │   ├── dao
@@ -66,10 +31,7 @@ restaurentmg/
 │   ├── ServerClient.java
 │   ├── TableAPI
 │   └── UserAPI
-├── ToolbarMenu.java
 └── usersessionmg
-    ├── AlertDialogManager.java
-    ├── IAlertDialogFinishedListener.java
     └── SessionManager.java
 ```
 
